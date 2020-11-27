@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Typing Game</title>
+</head>
+<body>
+    <h1>Typing game!</h1>
+    <p style="margin-top: 5%;">Practice your typing skills with a quote from <span style="color:#ff006a;">Sherlock Holmes</span>.</p> 
+    <p>Click <span  style="color:#ff006a;">**start**</span> to begin!</p>
+    <p>Type exactly what is displayed in the green box.</p>
+     <!-- This will display our quote -->
+    <h2 id="quote"></h2>
+    
+     <!-- This will display any status messages -->
+    <h2 id="message" class="success-message"></h2>
+    <div class="text-input">
+        <!-- the textbox for typing -->
+        <input type="text" id="typed-value" placeholder="type here"/>
+        <button type="button" id="start">Start</button>
+    </div>
+    <h3 id="error-message">Word Not Correct!!</h3>
+    <script src="script.js"></script>
+</body>
+</html>

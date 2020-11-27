@@ -1,0 +1,89 @@
+.highlight {
+  background-color: yellow;
+}
+
+.error {
+  background-color: lightcoral;
+  border: red;
+}
+body {
+  background-color: #333137;
+}
+
+body h1 {
+  text-align: center;
+  color: #f6f8f6;
+  font-family: "Nerko One", cursive;
+  font-size: 45px;
+  border: 2px solid #827784;
+  background-color: #938793;
+  border-radius: 5%;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+body p {
+  text-align: center;
+  color: #f6f8f6;
+  font-family: "Nerko One", cursive;
+  font-size: 30px;
+}
+
+.text-input {
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 10px;
+}
+
+.text-input button {
+  padding: 10px 45px 10px 45px;
+  border-radius: 30px;
+  background-color: #ff006a;
+  font-family: "Nerko One", cursive;
+  font-size: 1.8rem;
+  color: #f6f8f6;
+  outline: none;
+  margin-bottom: 10px;
+}
+.text-input input {
+  padding: 15px 45px 15px 45px;
+  border: 2px solid #827784;
+  background-color: #938793;
+  color: #f6f8f6;
+  font-family: "Nerko One", cursive;
+  font-size: 1.8rem;
+  outline: none;
+  display: none;
+}
+::placeholder {
+  color: #333137;
+}
+#error-message {
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+#quote {
+  background-color: #333137;
+  padding: 10px 15px 10px 15px;
+  text-align: center;
+  font-family: "Nerko One", cursive;
+  font-weight: 200;
+  font-size: 1.9rem;
+  position: relative;
+  border-radius: 5%;
+}
+
+.success-message {
+  color: #4bb543;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: "Nerko One", cursive;
+  text-align: center;
+}
